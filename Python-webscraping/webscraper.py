@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 #download chrome driver and get the directory for it and put it into the path variable
-Path =  '/Users/paulpapas123/Desktop/PersonalGit/chromedriver'
+Path =  ''
 driver = webdriver.Chrome(Path)
 driver.get("https://techwithtim.net")
 print(driver.title)
